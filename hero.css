@@ -1,4 +1,4 @@
-body, html {height: 100%;}
+body, html{height: 100%;}
 
 margin: 0;
   font-size: 28px;}
@@ -31,10 +31,6 @@ margin: 0;
 #navbar a.active {
   background-color: #539EB0;
   color: white;}
-.main {
-  padding: 16px;
-  margin-top: 30px;
-    height: 1500px;}
 
 /* The hero image */
 .hero-image {
@@ -79,6 +75,25 @@ margin: 0;
 
 html {background: #e6e9e9;
         background-image: linear-gradient(270deg, rgb(230, 233, 233) 0%, rgb(216, 221, 221) 100%);}
+#bodytwo{
+    float:center;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-left: 10%;
+    margin-right: 10%;
+    max-width: 80%;
+}
+#headd{max-width: auto;}
+#ppadding {padding: 10px 25px;}
+#hone {
+    padding: 10px 25px;
+    color: black;
+}
+
 
 h1 {color: whitesmoke;}
 
