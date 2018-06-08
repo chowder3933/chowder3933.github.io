@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Crowder Designs</title>
+        <link rel="stylesheet" href="hero.css">
+
+    </head>
+    <header id="headd">    
+    <div id="navbar">
+    <a class="active" href="index.html">Home</a>
+    <a href="style-tips.html">Style Tips</a>
+    <a href="indv-pack.html">Individual Packages</a>
+    <a href="pack.html">Packages (Best Deal)</a>
+    <a href="cit230-links.html">CIT230-links (Link)</a>
+</div>
+    
+    </header>
+    <body id="bodytwo">
+        <h1 id="hone">Subscription</h1>
+        <p id="ppadding"> We do have some of the greatest packages available. This is a pretty cool package because we send you new style boxes every month. This is perfect for someone who doesn't have the time to go out shopping every month for something new. This give you 12 boxes of a Tie, hankerchief, cufflinks and socks.
+<form id="ppadding" action="">
+  First name: <input type="text" name="fname"><br>
+  Last name: <input type="text" name="lname"><br>
+  Email: <input type="text" name="email"><br>
+  <input type="submit" value="Submit">
+</form>
+  <footer>
+<div id="navbar">
+    <a href="contact-us.html">Contact Us</a>
+    <a href="about-us.html">About Us</a>
+    <a href="pack.html">Shopping</a>
+    <a href="https://www.instagram.com/thecrowderfamilyadventures/?hl=en">Instagram</a>
+    </div>
+    </footer>          
+
+        
+    </body>
+</html
