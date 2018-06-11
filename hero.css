@@ -176,3 +176,13 @@ img {background: transparent; border: 10px solid rgba(0, 0, 0, 0.12); border-rad
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+#image {
+    float:left;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.12); 
+    border-radius: 4px; 
+    display: 
+    block; 
+    margin: 1em auto;
+    margin-bottom: auto}
