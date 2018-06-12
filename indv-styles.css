@@ -181,14 +181,15 @@ img {background: transparent; border: 10px solid rgba(0, 0, 0, 0.12); border-rad
 }
 
 #image {
-    float: middle;
+    
+    float: left;
     background: transparent;
     border: 2px solid rgba(0, 0, 0, 0.12); 
     border-radius: 4px; 
     display: 
     block; 
-    margin: 1em auto;
-    margin-bottom: auto;}
+    margin: 1em ;
+    margin-bottom: 1em;}
 #imagetwo {
     float:right;
     background: transparent;
