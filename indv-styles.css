@@ -8,7 +8,6 @@ body, html{
 
 .header {
   background-color: #f1f1f1;
-  padding: ;
   text-align: center;}
 #footer {
     float: bottom;}
@@ -183,28 +182,13 @@ samp {display: none;}
 
 .image {
     float: left;
-    background: ;
     margin: 1em ;
-    margin-bottom: 1em;
-    width= 50px ;
-    height= 50px ;
-    border=1px;}
-
-.imagetwo {
-    float:center;
-    background: transparent;
-    border: 2px solid rgba(0, 0, 0, 0.12); 
-    border-radius: 4px; 
-    display: 
-    block; 
-    margin: 1em auto;
-    margin-bottom: auto;}
+    margin-bottom: 1em;}
 
 
 
-.divtwo {position: auto;
+.divtwo {
         width: 80%;
-        height: ;
         font-size: 18px;
         background: transparent;
         background-color: whitesmoke;
