@@ -181,6 +181,8 @@ samp {display: none;}
 
 
 .image {
+    text-align: center;
+    vertical-align: middle;
     float: middle;
     margin: 1em ;
     margin-bottom: 1em;}

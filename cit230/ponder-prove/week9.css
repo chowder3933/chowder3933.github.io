@@ -1,6 +1,6 @@
 body {margin:0;}
 header {background-image: url(../ponder-prove/images/stones2133.jpg); background-repeat: repeat;margin: -15px 0 -10px;}    
-
+div#left-col img {width:10%}
             nav {color:#00FF00; background-color:rgba(247,209,210,.5);border:solid thin green;text-indent:50px;} 
             nav ol {text-align:center}
             nav ol#rocks li {display:inline;padding:1em;}
@@ -60,4 +60,5 @@ header {background-image: url(../ponder-prove/images/stones2133.jpg); background
             div#right-col{background-color:green;}
             aside{background-color:blue;}
             footer{background-color:#0CF;}
-            body {background-color:#DDF; border: 1px solid blue;}		 
+            body {background-color:#DDF; border: 1px solid blue;}		
+div#left-col, main, aside {font-size: 1vw;}
