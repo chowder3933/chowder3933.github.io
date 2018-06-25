@@ -110,7 +110,11 @@ b, strong {font-weight: 600;}
 
 samp {display: none;}
 
-.img {background: transparent; border: 10px solid rgba(0, 0, 0, 0.12); border-radius: 4px; display: block; margin: 1em auto; max-width: 95%;}
+.img {background: transparent; 
+    border: 10px solid rgba(0, 0, 0, 0.12); 
+    border-radius: 4px; 
+    display: block; 
+    margin: 1em auto; max-width: 95%;}
 
 
 .navbar {
@@ -181,6 +185,8 @@ samp {display: none;}
 
 
 .image {
+    max-width: 100%;
+    max-height: auto;
     text-align: center;
     vertical-align: middle;
     margin-bottom:1em ;
