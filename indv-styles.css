@@ -183,9 +183,9 @@ samp {display: none;}
 .image {
     text-align: center;
     vertical-align: middle;
-    float: middle;
-    margin: 1em ;
-    margin-bottom: 1em;}
+    margin-bottom:1em ;
+    margin-left: 10%;
+    margin-right: 15%;}
 
 
 
@@ -217,4 +217,3 @@ samp {display: none;}
 #navbar2 a:hover {
   background-color: #ddd;
   color: black;}
-
