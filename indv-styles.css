@@ -185,13 +185,15 @@ samp {display: none;}
 
 
 .image {
+    position: relative;
     max-width: 100%;
     max-height: auto;
     text-align: center;
     vertical-align: middle;
     margin-bottom:1em ;
     margin-left: 10%;
-    margin-right: 15%;}
+    margin-right: 15%;
+align-content: center;}
 
 
 
@@ -201,6 +203,7 @@ samp {display: none;}
         background: transparent;
         background-color: whitesmoke;
         margin-left: 10%;
+    align-content: center;
 }
 
 
