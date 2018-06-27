@@ -185,17 +185,49 @@ samp {display: none;}
 
 
 .image {
+            height: inherit;
+    width: inherit;
+    position: relative;
+    max-width: 250px;
+    max-height: 300px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom:1em ;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+.image2 {
+        height: inherit;
+    width: inherit;
+    position: relative;
+    max-width: 300px;
+    max-height: 250px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom:1em ;
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+
+.image3 {
+    height: inherit;
+    width: inherit;
     position: relative;
     max-width: 100%;
     max-height: auto;
     text-align: center;
     vertical-align: middle;
     margin-bottom:1em ;
-    margin-left: 10%;
-    margin-right: 15%;
-align-content: center;}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
-
+}
 
 .divtwo {
         width: 80%;
