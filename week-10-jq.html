@@ -29,16 +29,15 @@
   Email: <input type="text" id="email"><br>
   <button type="button" onclick="bryan()">Click</button>
 </p>
-        
+                        <li>
+                    <label id="major" for="cit">Computer Information Technology</label>
+                    <input type="checkbox" id="cit" value="Computer Information Technology" checked>
+                </li>
           </div>
     </body>
         <script>
-        function bryan() {
-            var nameFirst = document.getElementById("nameF");
-            var nameLast = document.getElementById("nameL");
-            var finished = window.alert("Hello " + nameFirst + ' ' + nameLast);
-                                        
-            document.getElementById('output').innerHTML = finished;
-        }
+            $("#major").mouseenter(function () {
+                alert("Hello " + document.alertform.yourname.value + " make sure you select CIT!!!");
+            });
     </script>
 </html>
