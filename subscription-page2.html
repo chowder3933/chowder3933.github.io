@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Crowder Designs</title>
+        <link rel="stylesheet" href="indv-styles.css">
+
+   
+        <script>
+        function bryan() {
+            var nameFirst = document.getElementById("nameF");
+            var nameLast = document.getElementById("nameL");
+            var finished = window.alert("Hello " + nameFirst + ' ' + nameLast);
+                                        
+        }
+    </script>
+    <script>
+    function dress() {
+        var dress = document.getElementById("suit");
+        var decision; 
+            if (dress = "blue") {
+            dress = "good to go";}
+                else if (dress = "black"){
+                    dress = "good to go";
+                }
+            else dress = "no do not wear";
+        
+        document.getElementById('output').innerHTML = dress;
+    }
+    </script>
+         </head>
+      <body>
+    <header id="headd">    
+    <div id="navbar">
+    <a class="active" href="index.html">Home</a>
+    <a href="style-tips.html">Style Tips</a>
+    <a href="indv-pack.html">Individual Packages</a>
+    <a href="pack.html">Packages (Best Deal)</a>
+</div>
+    
+    </header>
+  
+        <div class="divtwo">
+        <h1 class="hone">Subscription</h1>
+        <p class="ppadding"> We do have some of the greatest packages available. This is a pretty cool package because we send you new style boxes every month. This is perfect for someone who doesn't have the time to go out shopping every month for something new. This give you 12 boxes of a Tie, hankerchief, cufflinks and socks.
+<p class="ppadding">
+  First name: <input type="text" id="nameF"> <br>
+  Last name: <input type="text" id="nameL"><br>
+  Email: <input type="text" id="email"><br>
+  <button type="button" onclick="bryan()">Click</button>
+</p>
+        <p class="ppadding">
+            Please enter a Suit color
+            <input type="text" id="suit">
+            <button type="button" onclick='dress()'>Should you Wear it?</button>
+            
+            </p>
+           <div id="output"></div>
+            
+          </div>
+          
+    </body>
+
+</html>
