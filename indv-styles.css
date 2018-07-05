@@ -89,6 +89,9 @@ body, html{
 .ppadding {padding: 10px 25px;
             text-align: left;
             line-height: 1.5;}
+.pp {padding: 5px 5px;
+            text-align: center;
+            line-height: 1.5;}
 .hone {
     padding: 10px 25px;
     color: black;
@@ -185,7 +188,7 @@ samp {display: none;}
 
 
 .image {
-            height: inherit;
+    height: inherit;
     width: inherit;
     position: relative;
     max-width: 250px;
@@ -226,6 +229,21 @@ samp {display: none;}
     display: block;
     margin-left: auto;
     margin-right: auto;
+
+}
+.image4 {
+    height: inherit;
+    width: inherit;
+    position: relative;
+    max-width: 250px;
+    max-height: 250px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom:1em ;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% ;
 
 }
 
