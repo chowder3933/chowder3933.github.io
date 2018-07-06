@@ -6,7 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Crowder Designs</title>
         <link rel="stylesheet" href="indv-styles.css">
-
+<script>
+            $("#major").mouseenter(function () {
+                alert("Hello " + document.alertform.yourname.value + " make sure you select CIT!!!");
+            });
+    </script>
     </head>
 
       <body>
@@ -29,15 +33,13 @@
   Email: <input type="text" id="email"><br>
   <button type="button" onclick="bryan()">Click</button>
 </p>
+            <ul>
                         <li>
                     <label id="major" for="cit">Computer Information Technology</label>
                     <input type="checkbox" id="cit" value="Computer Information Technology" checked>
                 </li>
+                </ul>
           </div>
     </body>
-        <script>
-            $("#major").mouseenter(function () {
-                alert("Hello " + document.alertform.yourname.value + " make sure you select CIT!!!");
-            });
-    </script>
+        
 </html>
