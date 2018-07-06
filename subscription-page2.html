@@ -30,6 +30,34 @@
         document.getElementById('output').innerHTML = dress;
     }
     </script>
+        <script>        function liveLife()  { 
+           
+            var now = new Date();
+            var month = now.getMonth();
+            var dayOfMonth = now.getDate();
+            var dayOfWeek = now.getDay();
+            
+            var message;
+            if (month == 0 && dayOfMonth == 0) 
+                {message = "Sleep in.";}
+            
+            else if (month == 6 && dayOfMonth == 3) 
+                {message = "Sleep in.";}
+            
+            else if (month == 11 && dayOfMonth == 24) 
+                {message = "Sleep in.";}
+            
+            else if (dayOfWeek == 0 || 6) 
+                {message = "Sleep in.";}
+            
+           else {message = "Get up!";}
+            
+            
+            
+            document.getElementById('output').innerHTML = message;
+        
+            
+        }</script>
          </head>
       <body>
     <header id="headd">    
@@ -57,6 +85,9 @@
             <button type="button" onclick='dress()'>Should you Wear it?</button>
             
             </p>
+            
+            <p class="ppadding">        <button type="button" onclick="liveLife()">sleep in or not
+        </button></p>
            <div id="output"></div>
             
           </div>
