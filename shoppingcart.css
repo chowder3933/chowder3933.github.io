@@ -82,6 +82,7 @@ label {
 
 .btn:hover {
   background-color: whitesmoke;
+    color: black;
 }
 
 a {position: relative;
