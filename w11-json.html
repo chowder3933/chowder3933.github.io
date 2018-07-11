@@ -5,47 +5,28 @@
   </head>
 
   <body onload = "loadMap()">
-    <h2>Rexburg, Idaho</h2>
+    <h2>Rexburg Idaho</h2>
     <div id = "map" style = "width:640px; height:480px;"></div>
-      <script>
-
-        
-        function getJSONMarkers() {
-          const markers = [
-            {
-             name: "Brigham Young University Idaho",
-             location: [43.814746,-111.783706]
-            },
-            {
-              name: "SScience and Tech. Center",
-              location: [43.814593, -111.784549]
-            },
-            {
-              name: "I-Center",
-              location: [43.818404, -111.784671]
-            }
-          ];
-          return markers;
-        }
+      <script type="text/javascript" src="json.json"></script>
+          <script>
 
         function loadMap() {
           // Initialize Google Maps
           const mapOptions = {
             center:new google.maps.LatLng(43.814746,-111.783706),
-             zoom:15
+             zoom:14
           }
           const map = new google.maps.Map(document.getElementById('map'),mapOptions);
 
           // Load JSON Data
-          const hotelMarkers = getJSONMarkers();
+          var mydata = JSON.parse(data);
 
           // Initialize Google Markers
-          for(hotel of hotelMarkers) {
+          for(x=0;x<3;x++) {
             let marker = new google.maps.Marker({
-            map:map,
+            map: map,
             position:new 
-            google.maps.LatLng(hotel.location[0],hotel.location[1]),
-            title:hotel.name  
+            google.maps.LatLng(mydata[x].location[0], mydata[x].location[1]), title: mydata[x].name
             })
           }
         }
