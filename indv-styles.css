@@ -293,7 +293,7 @@ samp {display: none;}
 
 
 .center {text-align: center;}
-figure {
+figure { 
   justify-content: center;
   width: 30%;
   text-align: center;
